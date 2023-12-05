@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0%;
+    display: flex;
+}
+.main{
+flex-wrap: wrap;
+flex-grow: var(1);
+flex-shrink: initial;
+}
+.navbar{
+    flex-wrap: wrap;
+    flex-shrink: initial;
+    -ms-flex-order: initial;
+    margin: 0%;
+}
+.logo{
+    flex-grow: var(2);
+    flex-shrink: var(1);
+    flex-flow: row;
+    font-size: 70px;
+}
+
+

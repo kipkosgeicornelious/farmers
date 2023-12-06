@@ -20,5 +20,24 @@ flex-shrink: initial;
     flex-flow: row;
     font-size: 70px;
 }
-
+.menu{
+    width: 400px;
+    flex-direction: row;
+    flex-wrap: initial;
+}
+ul{
+    display: flex;
+    align-items: center;
+    float: left;
+}
+ul li{
+    margin: 40px;
+    list-style: none;
+    margin-top: 30px;
+    font-size: 15px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
 

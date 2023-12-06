@@ -4,26 +4,29 @@
     display: flex;
 }
 .main{
-flex-wrap: wrap;
-flex-grow: var(1);
-flex-shrink: initial;
+width: 400px;
+background-position: center;
+background-size: cover;
+background-color: black;
+height: 50px;
+float: left;
 }
 .navbar{
-    flex-wrap: wrap;
-    flex-shrink: initial;
-    -ms-flex-order: initial;
-    margin: 0%;
+   width: 1000px;
+    height: 75px;
+    margin: auto;
 }
 .logo{
-    flex-grow: var(2);
-    flex-shrink: var(1);
-    flex-flow: row;
+    padding: inline 4px; ;
+   border: solid;
+    width: 75px;
     font-size: 70px;
+    flex: auto;
 }
 .menu{
     width: 400px;
-    flex-direction: row;
-    flex-wrap: initial;
+    margin-top: 0%;
+   height: 75px;
 }
 ul{
     display: flex;

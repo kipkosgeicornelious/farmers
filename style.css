@@ -5,26 +5,19 @@ body {
     color: #333;
   }
   
-  #background-image {
-    background-image: url("background.jpg");
+  image {
+    background-image: url("/home/cornelious/Downloads/AdobeStock_100784174_Preview.jpeg");
     background-size: cover;
     background-position: center;
     height: 100vh;
   }
   
-  header {
-    position: relative;
-    top: 20px;
-    left: 20px;
-    width: 50%;
-  }
-  
-  header h1 {
+ body h1 {
     font-size: 2em;
     margin: 0;
   }
   
-  header p {
+  body p {
     font-size: 1em;
     margin: 0;
   }

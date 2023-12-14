@@ -8,7 +8,7 @@
   <img src="/home/cornelious/Downloads/AdobeStock_100784174_Preview.jpeg">
     <h1>Empowering Farmers</h1>
     <p>Get real-time market prices for your produce</p>
-  <nav>
+    <nav class="flex-nav">
     <ul>
       <li><a href="#prices">Prices</a></li>
       <li><a href="#trends">Market Trends</a></li>
@@ -25,26 +25,25 @@
       <li><a href="#login">Login</a></li>
     </ul>
   </nav>
-  <main>
-    <section id="prices">
+  <main class="flex-container">
+    <section id="prices" class="flex-item">
       <h2>Current Market Prices</h2>
       <p>Find the latest prices for your produce by selecting the type below.</p>
       <select id="produce-category">
-        <option value="grains">Grains</option>
-        <option value="fruits">Fruits</option>
-        <option value="vegetables">Vegetables</option>
+        <option value="grains" data-price="$5 per kg">Grains</option>
+        <option value="fruits" data-price="$2 per kg">Fruits</option>
+        <option value="vegetables" data-price="$4 per kg">Vegetables</option>
       </select>
-      <div id="price-data"></div>
     </section>
-    <section id="trends">
+    <section id="trends" class="flex-item">
       <h2>Market Trends & Analysis</h2>
       <div id="market-trends"></div>
     </section>
-    <section id="comparison">
+    <section id="comparison" class="flex-item">
       <h2>Compare Prices Across Regions</h2>
       <div id="price-comparison-map"></div>
     </section>
-    <section id="procurement">
+    <section id="procurement" class="flex-item">
       <h2>Government Procurement Prices</h2>
       <table>
         <thead>
@@ -63,25 +62,27 @@
       <h2>Find Local Markets & Services</h2>
       <div id="location-search-map"></div>
     </section>
-    <section id="language">
+    <section id="location" class="flex-item">
       <h2>Choose Your Language</h2>
       <select id="language-selector">
         <option value="en">English</option>
         </select>
     </section>
-    <section id="resources">
+    <section id="resources" class="flex-item">
       <h2>Educational Resources & Guides</h2>
       <ul>
         <li><a href="#">Guide to Sustainable Farming Practices</a></li>
         <li><a href="#">Pest and Disease Management Handbook</a></li>
         </ul>
     </section>
-    <section id="selling">
+    <section id="selling" class="flex-item">
       <h2>Financial intergretion</h2>
       <ul>
         <li><a href="#">Financial Services that enable Farmers to acces to loans</a></li>
         <li><a href="#">providing farmers with insurance cover</a></li>
       </ul>
+    </section>
+  </main>
     </body>
 </html>
     

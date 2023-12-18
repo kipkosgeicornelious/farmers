@@ -9,7 +9,7 @@ flex-direction: column;
     
   
   image {
-    inline-size:  url("https://t4.ftcdn.net/jpg/01/00/78/41/240_F_100784174_ff1eUStF2zEUkR7cAvvOjuP8PWY8tYpP.jpg");
+    inline-size:  url("/home/cornelious/Downloads/Fresh-produce.jpg");
     background-size: full;
     background-position: full;
     height: 400vh;
@@ -19,6 +19,9 @@ flex-direction: column;
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
   }
+  
+  
+  /* ... and so on for other buttons */
  
   
   body p {
@@ -112,4 +115,20 @@ flex-direction: column;
     /* ... styles for login system ... */
   }
 
-
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Top alignment */
+    margin: 20px 0; /* Adjust spacing as needed */
+  }
+  
+  .scroll-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.2s ease-in-out;
+  }
